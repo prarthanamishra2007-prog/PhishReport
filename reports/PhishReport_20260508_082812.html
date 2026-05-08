@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PhishReport — sample-1059.eml</title>
+<style>
+  :root { --accent: #2c3e50; --danger: #27ae60; --danger-bg: #eafaf1; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: #f0f2f5; color: #222; }
+  .header { background: var(--accent); color: #fff; padding: 28px 40px; }
+  .header h1 { font-size: 2rem; letter-spacing: 2px; }
+  .header p  { opacity: .7; margin-top: 4px; font-size: .9rem; }
+  .verdict-banner { background: var(--danger-bg); border-left: 6px solid var(--danger);
+    color: var(--danger); padding: 14px 40px; font-size: 1.2rem; font-weight: bold; }
+  .container { max-width: 960px; margin: 30px auto; padding: 0 20px; }
+  .section { background: #fff; border-radius: 8px; box-shadow: 0 1px 6px rgba(0,0,0,.08);
+    margin-bottom: 24px; overflow: hidden; }
+  .section-title { background: var(--accent); color: #fff; padding: 10px 20px;
+    font-size: 1rem; font-weight: 600; letter-spacing: 1px; }
+  .section-body { padding: 20px; }
+  table { width: 100%; border-collapse: collapse; }
+  td { padding: 8px 12px; border-bottom: 1px solid #eee; vertical-align: top; }
+  td:first-child { width: 200px; color: #555; font-weight: 600; }
+  .hash { font-family: monospace; font-size: .85rem; word-break: break-all; color: #27ae60; }
+  .tag { display:inline-block; padding:2px 8px; border-radius:12px; font-size:.8rem;
+    font-weight:600; background:var(--danger-bg); color:var(--danger); }
+  pre { background: #f8f9fa; padding: 14px; border-radius: 6px; font-size:.82rem;
+    overflow-x:auto; white-space:pre-wrap; word-break:break-word; color:#333; }
+  .checklist li { list-style: none; padding: 6px 0; border-bottom: 1px solid #eee; }
+  .checklist li::before { content: "☐  "; color: var(--accent); font-size: 1.1rem; }
+  .summary-box { background: var(--danger-bg); border-left: 4px solid var(--danger);
+    padding: 16px; border-radius: 4px; line-height: 1.7; }
+  .footer { text-align:center; color:#999; font-size:.8rem; padding: 20px; }
+  a { color: #2980b9; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>🛡 PhishReport</h1>
+  <p>Analyst: Prarthana Mishra &nbsp;|&nbsp; Date: 2026-05-08 08:28:00 +0545 &nbsp;|&nbsp; File: sample-1059.eml</p>
+</div>
+
+<div class="verdict-banner">
+  ⚠ Verdict: CLEAN (0 detections) &nbsp;|&nbsp; Engines: 0/76 flagged &nbsp;|&nbsp; Unknown
+</div>
+
+<div class="container">
+
+  <!-- SECTION 1 -->
+  <div class="section">
+    <div class="section-title">SECTION 1 — WHAT WAS ANALYSED</div>
+    <div class="section-body">
+      <table>
+        <tr><td>File Name</td><td>sample-1059.eml</td></tr>
+        <tr><td>File Size</td><td>12K</td></tr>
+        <tr><td>File Type</td><td>RFC 822 mail, ASCII text, with very long lines (537), with CRLF line terminators</td></tr>
+        <tr><td>Source</td><td>Phishing Email</td></tr>
+        <tr><td>Sender Email</td><td><em>(not provided)</em></td></tr>
+        <tr><td>Email Subject</td><td><em>(not provided)</em></td></tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- SECTION 2 -->
+  <div class="section">
+    <div class="section-title">SECTION 2 — STATIC ANALYSIS</div>
+    <div class="section-body">
+      <table>
+        <tr><td>SHA-256</td><td class="hash">f3806e15afc53ddb5f4d8765265e3313eefb7f358f99bce259274b14e1086dd3</td></tr>
+        <tr><td>SHA-1</td><td class="hash">f3168e195151b9b31900193029428bb8b55d380b</td></tr>
+        <tr><td>MD5</td><td class="hash">72272e11c935dbbace3c4d693a99d3ad</td></tr>
+        <tr><td>Static Risk</td><td><span class="tag">LOW — few suspicious strings detected</span></td></tr>
+      </table>
+      <br>
+      <strong>Suspicious Keywords:</strong>
+      <pre>Content-Transfer-Encoding: base64</pre>
+      <strong>URLs Found:</strong>
+      <pre>None detected.</pre>
+      <strong>Domains Found:</strong>
+      <pre>AM6P191CA0072.outlook.office365.com
+google.com
+mail.protection.outlook.com
+MW2PR16CA0057.outlook.office365.com
+namprd16.prod.outlook.com
+namprd19.prod.outlook.com
+prod.protection.outlook.com
+protection.outlook.com</pre>
+      <strong>Emails Found:</strong>
+      <pre>0982102d1c443edaba2c42665afdd4e8c745cc95-20069627-110394750@google.com
+c.bakou.kossi@autodoc.de
+C.BAKOU.KOSSI@AUTODOC.DE
+E1qSUXd-00036F-2z@mx-01.autodoc.dev
+workspace-noreply@google.com</pre>
+      <br>
+      <strong>VirusTotal Results:</strong>
+      <table>
+        <tr><td>Engines Flagged</td><td>0 / 76</td></tr>
+        <tr><td>Malware Name</td><td>Unknown</td></tr>
+        <tr><td>First Seen</td><td>2025-08-06 13:59 UTC</td></tr>
+        <tr><td>Verdict</td><td><span class="tag">CLEAN (0 detections)</span></td></tr>
+        <tr><td>VT Report</td><td><a href="https://www.virustotal.com/gui/file/f3806e15afc53ddb5f4d8765265e3313eefb7f358f99bce259274b14e1086dd3" target="_blank">https://www.virustotal.com/gui/file/f3806e15afc53ddb5f4d8765265e3313eefb7f358f99bce259274b14e1086dd3</a></td></tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- SECTION 3 -->
+  <div class="section">
+    <div class="section-title">SECTION 3 — DYNAMIC ANALYSIS</div>
+    <div class="section-body">
+      <table>
+        <tr><td>Hybrid Analysis</td><td>
+          <a href="https://www.hybrid-analysis.com/search?query=f3806e15afc53ddb5f4d8765265e3313eefb7f358f99bce259274b14e1086dd3" target="_blank">
+          View Sandbox Report</a>
+        </td></tr>
+      </table>
+      <br>
+      <strong>IP Addresses &amp; GeoIP:</strong>
+      <pre>  IP: 178.155.20.67 | Location: Krasnodar, Russia | ISP: MTS PJSC | Org: MTS Broadband\n  IP: 33.155.28.47 | Location: Columbus, United States | ISP: United States Department of Defense | Org: DoD Network Information Center\n  IP: 46.4.242.225 | Location: Falkenstein, Germany | ISP: Hetzner Online GmbH | Org: Hetzner Online GmbH\n</pre>
+    </div>
+  </div>
+
+  <!-- SECTION 4 -->
+  <div class="section">
+    <div class="section-title">SECTION 4 — REMEDIATION ACTIONS</div>
+    <div class="section-body">
+      <ul class="checklist">
+        <li>Isolate the affected machine from the network immediately</li>
+        <li>Preserve and back up forensic evidence (disk image, logs)</li>
+        <li>Block the sender email address at the mail gateway</li>
+        <li>Block identified malicious domains/IPs at the firewall</li>
+        <li>Submit sample to AV vendor for signature update</li>
+        <li>Scan all machines that may have received the same email</li>
+        <li>Reset credentials of any potentially exposed accounts</li>
+        <li>Notify management / CISO per incident response policy</li>
+        <li>Document all actions with timestamps</li>
+        <li>Conduct post-incident review</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- SECTION 5 -->
+  <div class="section">
+    <div class="section-title">SECTION 5 — SUMMARY</div>
+    <div class="section-body">
+      <div class="summary-box">On 2026-05-08 08:28:00 +0545, analyst Prarthana Mishra examined a file named 'sample-1059.eml' (12K, type: RFC 822 mail, ASCII text, with very long lines (537), with CRLF line terminators) received via Phishing Email. Static analysis identified a risk level of LOW — few suspicious strings detected. VirusTotal returned a verdict of CLEAN (0 detections) (0/76 engines flagged). Continue monitoring and apply standard precautionary measures.</div>
+    </div>
+  </div>
+
+</div>
+<div class="footer">Generated by PhishReport &nbsp;|&nbsp; Analyst: Prarthana Mishra &nbsp;|&nbsp; 2026-05-08 08:28:00 +0545</div>
+</body>
+</html>
